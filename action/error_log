@@ -1,0 +1,347 @@
+[29-Aug-2020 16:09:21 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[30-Aug-2020 11:05:33 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[30-Aug-2020 11:17:13 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[30-Aug-2020 11:30:00 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[30-Aug-2020 11:32:06 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[30-Aug-2020 14:03:57 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[30-Aug-2020 14:06:22 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[30-Aug-2020 14:09:35 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[31-Aug-2020 03:59:44 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[01-Sep-2020 06:53:06 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[01-Sep-2020 06:54:24 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[01-Sep-2020 06:54:24 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[05-Sep-2020 14:19:15 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[24-Sep-2020 14:15:26 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[04-Sep-2022 16:56:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_2` FOREIGN KEY (`goal`) REFERENCES `goal` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/goal.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/goal.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/goal.d.php on line 14
+[04-Sep-2022 20:00:00 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[04-Sep-2022 20:00:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:00:00 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:00 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:00:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:00:00 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:00 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:00:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:00:00 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:00 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:00:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:00:00 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:00 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:11 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:11 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:11 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:00:46 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:00:46 UTC] PHP Stack trace:
+[04-Sep-2022 20:00:46 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$bal in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 42
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:01:03 UTC] PHP Notice:  Undefined property: stdClass::$udate in /home/edeskcoi/public_html/gp.munka.in/action/account.r.php on line 43
+[04-Sep-2022 20:01:03 UTC] PHP Stack trace:
+[04-Sep-2022 20:01:03 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/account.r.php:0
+[04-Sep-2022 20:08:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[04-Sep-2022 20:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:08:49 UTC] PHP Stack trace:
+[04-Sep-2022 20:08:49 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:08:49 UTC] PHP Stack trace:
+[04-Sep-2022 20:08:49 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:08:49 UTC] PHP Stack trace:
+[04-Sep-2022 20:08:49 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:08:49 UTC] PHP Stack trace:
+[04-Sep-2022 20:08:49 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:09:13 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[04-Sep-2022 20:09:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:09:13 UTC] PHP Stack trace:
+[04-Sep-2022 20:09:13 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:09:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:09:13 UTC] PHP Stack trace:
+[04-Sep-2022 20:09:13 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:09:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:09:13 UTC] PHP Stack trace:
+[04-Sep-2022 20:09:13 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[04-Sep-2022 20:09:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[04-Sep-2022 20:09:13 UTC] PHP Stack trace:
+[04-Sep-2022 20:09:13 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:14 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[05-Sep-2022 06:15:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:14 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:14 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:14 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:14 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:14 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:14 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:14 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:14 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:24 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[05-Sep-2022 06:15:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:24 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:24 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:24 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:24 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:24 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:24 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:24 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:24 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[05-Sep-2022 06:15:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[05-Sep-2022 06:15:24 UTC] PHP Stack trace:
+[05-Sep-2022 06:15:24 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:26:21 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[06-Sep-2022 05:26:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 05:26:21 UTC] PHP Stack trace:
+[06-Sep-2022 05:26:21 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:26:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 05:26:21 UTC] PHP Stack trace:
+[06-Sep-2022 05:26:21 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:26:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 05:26:21 UTC] PHP Stack trace:
+[06-Sep-2022 05:26:21 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:26:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 05:26:21 UTC] PHP Stack trace:
+[06-Sep-2022 05:26:21 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:26:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 05:26:21 UTC] PHP Stack trace:
+[06-Sep-2022 05:26:21 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 05:28:57 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[06-Sep-2022 05:28:57 UTC] PHP Stack trace:
+[06-Sep-2022 05:28:57 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php:0
+[06-Sep-2022 05:32:37 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[06-Sep-2022 05:32:37 UTC] PHP Stack trace:
+[06-Sep-2022 05:32:37 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php:0
+[06-Sep-2022 05:34:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_1` FOREIGN KEY (`account`) REFERENCES `uia` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/account.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php on line 14
+[06-Sep-2022 05:34:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_1` FOREIGN KEY (`account`) REFERENCES `uia` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/account.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php on line 14
+[06-Sep-2022 05:35:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_1` FOREIGN KEY (`account`) REFERENCES `uia` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/account.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php on line 14
+[06-Sep-2022 05:35:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_1` FOREIGN KEY (`account`) REFERENCES `uia` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/account.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php on line 14
+[06-Sep-2022 05:35:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`edeskcoi_gp`.`deposit`, CONSTRAINT `deposit_ibfk_1` FOREIGN KEY (`account`) REFERENCES `uia` (`id`)) in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php:14
+Stack trace:
+#0 /home/edeskcoi/public_html/gp.munka.in/action/account.d.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/edeskcoi/public_html/gp.munka.in/action/account.d.php on line 14
+[06-Sep-2022 15:42:55 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[06-Sep-2022 15:42:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 15:42:55 UTC] PHP Stack trace:
+[06-Sep-2022 15:42:55 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 15:42:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 15:42:55 UTC] PHP Stack trace:
+[06-Sep-2022 15:42:55 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 15:42:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 15:42:55 UTC] PHP Stack trace:
+[06-Sep-2022 15:42:55 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 15:42:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 15:42:55 UTC] PHP Stack trace:
+[06-Sep-2022 15:42:55 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[06-Sep-2022 15:42:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[06-Sep-2022 15:42:55 UTC] PHP Stack trace:
+[06-Sep-2022 15:42:55 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[07-Sep-2022 15:35:32 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[07-Sep-2022 15:36:12 UTC] PHP Notice:  Undefined index: status in /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php on line 19
+[07-Sep-2022 15:36:12 UTC] PHP Stack trace:
+[07-Sep-2022 15:36:12 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.dm.php:0
+[07-Sep-2022 15:36:13 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[07-Sep-2022 15:36:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[07-Sep-2022 15:36:13 UTC] PHP Stack trace:
+[07-Sep-2022 15:36:13 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[07-Sep-2022 15:36:33 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[07-Sep-2022 15:36:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[07-Sep-2022 15:36:33 UTC] PHP Stack trace:
+[07-Sep-2022 15:36:33 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[07-Sep-2022 15:37:27 UTC] PHP Notice:  Undefined index: pstatus in /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php on line 18
+[07-Sep-2022 15:37:27 UTC] PHP Stack trace:
+[07-Sep-2022 15:37:27 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/pgoal.dm.php:0
+[07-Sep-2022 15:40:25 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[07-Sep-2022 15:40:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[07-Sep-2022 15:40:25 UTC] PHP Stack trace:
+[07-Sep-2022 15:40:25 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[24-Dec-2022 06:56:50 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 29
+[24-Dec-2022 06:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[24-Dec-2022 06:56:51 UTC] PHP Stack trace:
+[24-Dec-2022 06:56:51 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[24-Dec-2022 06:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[24-Dec-2022 06:56:51 UTC] PHP Stack trace:
+[24-Dec-2022 06:56:51 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[24-Dec-2022 06:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[24-Dec-2022 06:56:51 UTC] PHP Stack trace:
+[24-Dec-2022 06:56:51 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[24-Dec-2022 06:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[24-Dec-2022 06:56:51 UTC] PHP Stack trace:
+[24-Dec-2022 06:56:51 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0
+[24-Dec-2022 06:56:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php on line 30
+[24-Dec-2022 06:56:51 UTC] PHP Stack trace:
+[24-Dec-2022 06:56:51 UTC] PHP   1. {main}() /home/edeskcoi/public_html/gp.munka.in/action/goal.r.php:0

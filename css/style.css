@@ -1,0 +1,11 @@
+/*================================================================================
+	Item Name: Goal Planner, Free Personal and Finencial Goal Tracking Planner.
+	Author: Er. Dipankar Mohanta
+	Author URL: http://www.dipankarmohanta.com
+================================================================================*/
+
+
+.dbtn-success{background-color:#28d094}
+.dbtn-success.dbtn-glow{box-shadow:0 0 10px #28d094}
+.dbtn-success[href]:focus,
+.dbtn-success[href]:hover{background-color:#20a576}
